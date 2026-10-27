@@ -1,7 +1,7 @@
 /**
  * Pure integer simulation. 30 ticks/second, positions in 1/16-pixel units.
  * No wall clock, browser state, random globals, or rendering dependencies.
- * Input bits and a seed reproduce an entire match. See docs/architecture.md.
+ * Input bits and a seed reproduce an entire match.
  */
 export const HZ = 30;
 export const UNIT = 16;

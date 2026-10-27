@@ -48,11 +48,10 @@ src/game/teams.ts           Fictional clubs and kit colors
 src/game/storage.ts         Validated local results and cup persistence
 src/components/             Canvas lifecycle and touch input
 src/App.tsx                 Clubhouse, match, cup, and result flows
-docs/architecture.md       UTXOPlay reference research and integration boundary
 ```
 
 ## UTXOPlay status
 
 The first playable slice runs locally and builds as a standalone static client. It is **not published on UTXOPlay**, and does not yet implement its authenticated host adapter, Rust/Myelin verifier, wallet libraries, or online matches.
 
-The engine follows the author's separation of simulation, browser presentation, and recorded input, so those integrations can be added without putting platform authentication into the renderer. The specific reference repositories and the remaining integration work are documented in [docs/architecture.md](docs/architecture.md).
+The engine follows the author's separation of simulation, browser presentation, and recorded input, so those integrations can be added without putting platform authentication into the renderer.
